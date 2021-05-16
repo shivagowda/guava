@@ -12,7 +12,7 @@
   <description>Parent for guava artifacts</description>
   <url>https://github.com/google/guava</url>
   <properties>
-    <!-- Override this with -Dtest.include="**/SomeTest.java" on the CLI -->
+    <!--  Override this with -Dtest.include="**/SomeTest.java" on the CLI -->
     <test.include>%regex[.*.class]</test.include>
     <truth.version>1.1.2</truth.version>
     <checker-framework.version>3.12.0</checker-framework.version>
