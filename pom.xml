@@ -25,7 +25,7 @@
       https://github.com/mojohaus/animal-sniffer/issues/131.
 
       We could probably work around this with a different suppression strategy,
-      perhaps (untested):
+      perhaps (untested): 
 
       <ignores><ignore>com.google.common.util.concurrent.FuturesGetChecked$GetCheckedTypeValidatorHolder$ClassValueValidator</ignore></ignores>
 
